@@ -1,0 +1,295 @@
+
+
+.top_nav {
+    width: 100%;
+    height: 65px;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    position: absolute;  /* default to absolute */
+    top: 0;
+    transition: top 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-placeholder {
+    height: 0; /* Initially, it won't occupy any space */
+}
+
+.sticky-nav {
+    position: fixed;
+    top: -65px;  /* start off-screen */
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.scrolling-up {
+    top: 0;  /* when scrolling up, animate to this position */
+}
+
+
+.nav_container {
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.nav_logo img{
+    /*justify-self: center;*/
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    height: 50px;
+}
+
+
+.nav_list li{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav_list li {
+    position: relative;
+    top: 8px;
+    font-size: 22px;
+    margin-right: 20px;
+    display: inline-flex;
+    z-index: 300;
+}
+
+.nav_list {
+    padding-right: 20px !important;
+}
+
+
+.nav_list li a {
+    display: inline-block;
+    color: #000000;
+}
+
+.dropdown_container{
+    position: relative;
+    z-index: 100000;
+}
+
+.drop_container_button {
+    font-size: inherit;
+    color: #000000;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+.drop_content_container {
+    background: linear-gradient(to bottom, #f1f0f0 12%, #f1f0f0 12%);
+    display: none;  /* keep it hidden by default */
+    position: fixed; /* fixed positioning will ensure it covers the viewport even when scrolled */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 75px;
+    z-index: 9999; /* a high z-index to ensure it's on top of other content */
+    flex-direction: column;  /* This ensures items are stacked vertically */
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+
+.drop_content_container img {
+    /*padding-top: 2%;*/
+    /*padding-left: 4%;*/
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.drop_content_container .exit_button {
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    right: 22px;
+    top: 25px;
+    /*padding: 20px 16px;*/
+}
+
+.drop_content_button {
+    display: flex;
+    padding: 14px 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 18px;
+    font-family: Cairo;
+    background-color: #f1f0f0;
+    position: relative; /* Added this line */
+    align-items: center; /* This ensures vertical centering for child elements */
+    justify-content: space-between; /* Pushes content to the edges */
+}
+
+.down_arrow, .up_arrow {
+    position: absolute;
+    right: 30px; /* Adjusted this value for better alignment */
+    top: 50%; /* Centered vertically */
+    transform: translateY(-50%); /* This ensures true vertical centering */
+    z-index: 999999;
+}
+
+
+.bi-chevron-double-up {display: none;
+}
+
+.drop_content_button:hover {
+    background-color: #d3d3d3;
+}
+
+/*.drop_content_button .bi-chevron-double-down {*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    right: 20px;*/
+/*    top:20px;*/
+
+/*    !*transform: translateY(-95%);  !* Shift it up by half of its own height *!*!*/
+/*}*/
+/*.drop_content_button .bi-chevron-double-up {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    right: 28px;*/
+/*    transform: translateY(-95%);  !* Shift it up by half of its own height *!*/
+/*}*/
+
+
+/*.drop_container_button:hover ~ .drop_content_container {*/
+/*    display: flex;*/
+/*}*/
+
+.show-content {
+    display: flex !important;  /* The !important ensures this rule will override other display settings */
+}
+
+.drop_content {
+    display: none;
+    flex-direction: column;
+    left: 20px;
+    width: 100%;
+    background-color: #f1f0f0;
+}
+
+.drop_content a {
+    font-family: Cairo;
+    font-size: 17px;
+    color: #1f1e31 !important;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.drop_content a:hover {
+    background-color: #d3d3d3;
+}
+
+.socials_tab {
+    height: 28px;
+    width: 140px;
+    right: 10px;
+    position: absolute;
+    top: 70px;
+    background-color: #3a1616;
+    z-index: 1000;
+    border-radius: 50px;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    transition: top 0.3s ease;  /* Smooth transition */
+}
+
+.sticky {
+    position: fixed;
+    top: 5px;
+}
+
+.sticky-up {
+    position: fixed;
+    top: 70px;
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: row;  /* Stack children vertically */
+    align-items: center;     /* Center the children horizontally */
+    justify-content: space-between;
+    padding: 0;              /* Remove default padding */
+    margin: 0;               /* Remove default margin */
+    list-style: none;        /* Remove bullet points */
+    width: 100%;             /* Take full width of parent */
+}
+
+.socials li {
+    width: 100%;             /* Take full width of the parent (socials ul) */
+    text-align: center;      /* Center the content (a) within the li */
+    margin: 5px 0;           /* Spacing between list items */
+}
+
+.socials a {
+    color: white;            /* Just an example color, change as needed */
+    text-decoration: none;   /* Remove underlines from links */
+}
+
+.search-window {
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10000;
+}
+
+.search-window input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.search-window button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.close-search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+

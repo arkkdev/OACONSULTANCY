@@ -1,0 +1,169 @@
+.full_nav_container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    /*background-color: #3a1616;*/
+    height: 400px;
+    left:0;
+    top: 0;}
+
+.full_logo {
+    display: flex; position: absolute; top:0px; left:2%;
+    height: 90px; width: 14%;
+    background-color: #482a2a; justify-content: center; z-index: 999999}
+
+.logo_web {
+    height: 50px; padding-top: 10%; }
+
+.full_nav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    height: 65px;
+    width: 70%;
+    left: 18.3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.full_content {
+    width: 100%;
+    height: 400px;
+    /*width: 20%; !* This ensures each div takes up 20% of the parent *!*/
+}
+
+.full_content:first-child {
+    width: 25.5%;
+}
+.full_content:nth-child(2) {
+    width: 24.5%;
+}
+.full_content:nth-child(3) {
+    width: 20%;
+}
+.full_content:nth-child(4), .full_content:nth-child(5){
+    width: 15%;
+}
+.full_content:nth-child(4) {
+    /*padding-left: 20px;*/
+}
+
+.full_nav_title{
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.full_nav_title a {
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.full_nav_title a:hover, .full_nav_body a:hover{
+    color: #887575;
+}
+
+.full_nav_body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    top: 70px;
+    height: 335px;
+    justify-content: center;
+}
+
+
+.full_nav_body ul {
+    list-style-type: none;
+    top: 5%;
+    left: 22%;
+    width: 100%;
+    height: 20%;
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    z-index: 500;
+}
+
+
+.full_nav_body li{
+    padding:0;
+    margin: 0;
+}
+
+.full_nav_body a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+}
+.nav_hr {
+    top: -10px;}
+.full_hr {
+    top: 230px;}
+.nav_hr, .full_hr {
+    z-index: 10000; width: 64%; position: absolute; left: 17.5%;
+}
+
+.full_nav_bkg {
+    position: absolute;
+    top:65px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+    display: none;
+}
+
+
+
+.full_socials_container {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 130px;
+    right: 17%;
+    position: absolute;
+    top: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: top 0.3s ease;  /* Smooth transition */
+}
+
+.full_socials {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;  /* Stack children vertically */
+    align-items: center;     /* Center the children horizontally */
+    justify-content: space-between;
+    padding: 0;              /* Remove default padding */
+    margin: 0;               /* Remove default margin */
+    list-style: none;        /* Remove bullet points */
+    width: 100%;             /* Take full width of parent */
+}
+
+.full_socials li {
+    width: 100%;             /* Take full width of the parent (socials ul) */
+    text-align: center;      /* Center the content (a) within the li */
+    margin: 5px 0px;           /* Spacing between list items */
+}
+.full_socials li:nth-child(2) {
+    margin:  0;
+}
+
+.full_socials a {
+    color: black;
+    text-decoration: none;   /* Remove underlines from links */
+}
