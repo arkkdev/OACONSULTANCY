@@ -5,11 +5,11 @@ body {
 }
 
 .jumbotron {
-    top: 63px;
+    top: 15%;
     position: absolute;
     display: flex;
     margin-top: 0%;
-    height: 200px;
+    height: 300px;
 }
 
 /*.jumbotron img {*/
@@ -104,7 +104,7 @@ body {
     background-color: whitesmoke;
     position: absolute;
     height: 6000px;
-    top: 475px;
+    top: 60%;
 }
 
 .square_container h1 {

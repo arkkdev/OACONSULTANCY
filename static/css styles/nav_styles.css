@@ -111,24 +111,24 @@
 .drop_content_container img {
     /*padding-top: 2%;*/
     /*padding-left: 4%;*/
-    height: 60px;
+    height: 7.5%;
     position: absolute;
-    top: 20px;
+    top: 3.7%;
     left: 0px;
 }
 
 .drop_content_container .exit_button {
     background-color: inherit;
     border: none;
-    font-size: 25px;
+    font-size: 40px;
     color: black;
     position: absolute;
     right: 20px;
-    top: 35px;
+    top: 5%;
     /*padding: 20px 16px;*/
 }
 
-.top_drop { height: 15px}
+.top_drop { height: 5%}
 
 .drop_content_button {
     display: flex;
@@ -136,9 +136,9 @@
     width: 100%;
     text-align: left;
     border: none;
-    font-size: 18px;
+    font-size: 25px;
     font-family: Cairo;
-    background-color: #f1f0f0;
+    background-color: #f1f0f0; text-decoration: none; color: black;
     position: relative; /* Added this line */
     align-items: center; /* This ensures vertical centering for child elements */
     justify-content: space-between; /* Pushes content to the edges */
@@ -160,25 +160,6 @@
     background-color: #d3d3d3;
 }
 
-/*.drop_content_button .bi-chevron-double-down {*/
-/*    display: flex;*/
-/*    position: absolute;*/
-/*    right: 20px;*/
-/*    top:20px;*/
-
-/*    !*transform: translateY(-95%);  !* Shift it up by half of its own height *!*!*/
-/*}*/
-/*.drop_content_button .bi-chevron-double-up {*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    right: 28px;*/
-/*    transform: translateY(-95%);  !* Shift it up by half of its own height *!*/
-/*}*/
-
-
-/*.drop_container_button:hover ~ .drop_content_container {*/
-/*    display: flex;*/
-/*}*/
 
 .show-content {
     display: flex !important;  /* The !important ensures this rule will override other display settings */
@@ -194,8 +175,8 @@
 
 .drop_content a {
     font-family: Cairo;
-    font-size: 17px;
-    color: #1f1e31 !important;
+    font-size: 25px;
+    color: #000000 !important;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -207,9 +188,9 @@
 }
 
 .socials_tab {
-    height: 7%; width: 30%; right: 10px;
-    position: absolute; top: 105px;
-    background-color: #3a1616; font-size: 25px;
+    height: 5%; width: 30%; right: 10px; font-size: 30px;
+    position: absolute; top: 16%;
+    background-color: #3a1616;
     z-index: 1000;
     border-radius: 50px;
     opacity: 80%;
@@ -229,7 +210,6 @@
     position: fixed;
     top: 16%;
 }
-
 
 .socials {
     display: flex;
