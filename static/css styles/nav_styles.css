@@ -108,22 +108,24 @@
 .drop_content_container img {
     /*padding-top: 2%;*/
     /*padding-left: 4%;*/
-    height: 40px;
+    height: 60px;
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: 0px;
 }
 
 .drop_content_container .exit_button {
     background-color: inherit;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     position: absolute;
-    right: 22px;
-    top: 25px;
+    right: 20px;
+    top: 35px;
     /*padding: 20px 16px;*/
 }
+
+.top_drop { height: 15px}
 
 .drop_content_button {
     display: flex;
@@ -202,12 +204,9 @@
 }
 
 .socials_tab {
-    height: 28px;
-    width: 140px;
-    right: 10px;
-    position: absolute;
-    top: 70px;
-    background-color: #3a1616;
+    height: 45px; width: 170px; right: 10px;
+    position: absolute; top: 105px;
+    background-color: #3a1616; font-size: 20px;
     z-index: 1000;
     border-radius: 50px;
     opacity: 80%;
@@ -225,7 +224,7 @@
 
 .sticky-up {
     position: fixed;
-    top: 70px;
+    top: 105px;
 }
 
 
