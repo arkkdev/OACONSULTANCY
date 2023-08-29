@@ -189,7 +189,7 @@
 }
 
 .socials_tab {
-    height: 5%; width: 30%; right: 10px; font-size: 2em;
+    height: 5%; width: 30%; right: 10px; font-size: 5vw;
     position: absolute; top: 13%;
     background-color: #3a1616;
     z-index: 1000;
