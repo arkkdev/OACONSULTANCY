@@ -13,9 +13,9 @@
 @media only screen and (max-width: 1079px) {
     .full_nav_container {
         display: none;}
-    .top_nav {height: 100px;}
-    .nav_logo img{ top: 20%; height: 60px}
-    .nav_list li {top:20px; font-size: 25px}
+    .top_nav {height: 15%;}
+    .nav_logo img{ top: 25%; height: 50%;}
+    /*.nav_list li {top:25% !important; font-size: 25px}*/
     /*.socials_tab {height: 45px; width: 170px;*/
     /*    top: 105px; font-size: 20px;}*/
 }
