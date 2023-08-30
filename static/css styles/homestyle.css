@@ -1,14 +1,11 @@
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0;padding: 0;
 }
 
 .jumbotron {
-    top: 21vw;
-    position: absolute; background-color: #128c55;
-    margin-top: 0%;
-    height: 85vw;
+    position: absolute;
+    margin-top: 0%; height: 85vw; top: 21vw;
 }
 
 /*.jumbotron img {*/
@@ -20,10 +17,8 @@ body {
 /*}*/
 
 .slider {
-    overflow: hidden;
-    width: 100vw;  /* Full width of the viewport */
-    height: 54vw;
-    position: relative;
+    overflow: hidden; position: relative;
+    width: 100vw; height: 54vw;
 }
 
 .slides {
@@ -38,12 +33,9 @@ body {
 }
 
 .slide img {
-    width: 100%; /* Full width of the viewport */
-    height: 100%;
-    object-fit: cover;
-    opacity: 65%;
+    width: 100%; height: 100%;
+    object-fit: cover; opacity: 65%;
 }
-
 
 .jumbotron .banner {
     width: 100%;
@@ -55,27 +47,17 @@ body {
 }
 
 .jumbotron h1 {
-    font-family: 'Quicksand', sans-serif;
-    color: #000000;
+    font-family: 'Quicksand', sans-serif; color: #000000;
     font-weight: bolder;
-    position: absolute;
-    top: 10%; /* Center the h1 vertically */
-    /*left: 50%; !* Center the h1 horizontally *!*/
-    /*transform: translate(-50%, -50%);*/
-    text-align: center; /* Align text to center */
-    width: 90%; /* Ensure it spans the full width of the container */
-    left: 5%;
+    position: absolute; text-align: center;
+    top: 20vw; width: 80vw; left: 10vw;
 }
 
 .jumbotron ul {
-    width: 90%;
-    font-family: Cairo;
-    position: absolute;
-    top: 5%;
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+    width: 90%; top: 10%;
+    font-family: 'Cairo', sans-serif; font-size: 3vw;
+    position: absolute; display: flex;
+    list-style: none; text-align: center; justify-content: space-between;
 }
 
 .jumbotron li {
@@ -84,32 +66,24 @@ body {
 
 .jumbotron button {
     font-family: Cairo;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    top: 60%;
-    left: 25%;
-    padding: 14px 16px;
-    border-radius: 3px;
-    border-color: black;
+    display: flex; position: relative;
+    justify-content: center; align-items: center;
+    width: 50vw; top: 20vw; left: 25vw;
+    font-size: 2.5vw; padding: 2vw 4vw;
+    border-radius: 3px; border-color: black;
     background-color: whitesmoke;
 }
 
 .square_container {
-    margin: 2.5%;
-    width: 95%;
+    margin: 2.5%; width: 95%; height: 200vw; top: 110vw;
     background-color: whitesmoke;
     position: absolute;
-    height: 6000px;
-    top: 110vw;
 }
 
 .square_container h1 {
     text-align: center;
     font-family: 'Cairo', sans-serif;
-    font-weight: bold;
+    font-weight: bold; font-size: 5vw;
 }
 
 .square_list{
@@ -117,37 +91,35 @@ body {
     position: relative;
 }
 .square_list li {
-    margin: 0; padding-bottom: 20px;}
+    margin: 0; padding-bottom: 20px; flex-wrap: wrap}
 .square_content {
     border-radius: 2px;
-    height: 175px; background-color: #a67c7c; width: 95%;
+    height: 35vw; background-color: #a67c7c; width: 85vw;
     position: relative; overflow: hidden;
 }
 .square_content img {
     opacity: 70%;
-    position: absolute; /* Takes the image out of the normal flow */
-    top: 0;left: 0;
-    width: 100%;
-    height: 100%; /* Makes the image fill the div vertically */
-    object-fit: cover; /* Makes the image cover the entire div */
+    position: absolute;
+    top: 0;left: 0; width: 100%; height: 100%;
+    object-fit: cover;
 }
 .square_banner {
     opacity: 95%;
     position: absolute;
     left: 0; margin-top: 3.5%;
-    width: 50%; height: 50px;
+    width: 40vw; height: 7vw;
     background: linear-gradient(-65deg, transparent 20%, #e0dfdf 20%);
 }
-.square_content h1 {
+.square_banner h1 {
     padding: 0; margin: 0;
     position: absolute;
-    left: 5%; top: 12.5%;
-    font-size: 20px;
+    left: 2vw; top: .5vw;
+    font-size: 3vw;
 }
 .square_content button {
     padding: 0; margin: 0;
     height: 25%; width: 40%;
-    font-size: 15px; font-family: 'Cairo', sans-serif;
+    font-size: 3vw; font-family: 'Cairo', sans-serif;
     background: linear-gradient(-65deg, #e0dfdf 80%, transparent 80%); border: none;
     position: absolute;
     right: 0; bottom: 10%;
@@ -160,7 +132,7 @@ body {
     text-decoration: none; color: #494949;
 }
 .square_content button i {
-    font-size: 20px; position: absolute; top: 10%; right: 10%;
+    font-size: 4vw; position: absolute; top: 10%; right: 10%;
 }
 
 

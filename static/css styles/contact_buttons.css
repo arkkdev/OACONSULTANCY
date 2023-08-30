@@ -1,23 +1,39 @@
 /* WhatsApp Button */
-.whatsapp-button a {
-    display: inline-block;
-    font-size: 24px;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    background-color: #25D366;
-    padding: 15px;
-    border-radius: 50%;
-    color: white;
-    text-decoration: none;
+.whatsapp-button, .phone_button, .email-button {
+    padding: 0; margin: 0;
+    display: flex;
+    justify-content: center; align-items: center;
+    position: fixed; display: flex;
+    font-size: 4vw;
+    height: 10vw; width: 10vw;
+    right: 10px; bottom: 1vw !important;
+    border-radius: 30vw;
+    color: white; text-decoration: none;
     transition: background-color 0.3s;
-    z-index: 10000000000;
+    z-index: 10000000000; cursor: pointer;
+}
+.whatsapp-button {
+    background-color: #25D366;
 }
 
-.whatsapp-button a:hover {
+.email-button {
+    right: 12vw;background-color: #89CFF0;
+}
+
+.phone_button {
+    background-color: #b0a1a1;
+    right: 23vw;
+}
+.phone_button a {
+    color: whitesmoke;
+    position: relative;
+}
+.phone_button:hover {
+    background-color: #807676;
+}
+.whatsapp-button:hover {
     background-color: #128c55;
 }
-
 .email-button:hover {
     background-color: #619bb4;
 }
@@ -25,12 +41,12 @@
 /* Form Styling */
 #whatsappForm, #emailForm {
     position: fixed;
-    right: 10px;
-    bottom: 80px;
+    right: 1vw;
+    bottom: 12vw;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 4vw;
     border-radius: 15px;
-    width: 300px;
+    width: 45vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 5000;
 }
@@ -38,8 +54,8 @@
 #whatsappForm h2, #emailForm h2 {
     font-family: 'Titilium', sans-serif;
     color: #333;
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 3.5vw;
+    margin-bottom: 4vw;
 }
 
 #whatsappForm input,
@@ -48,12 +64,12 @@
 #emailForm input,
 #emailForm select,
 #emailForm button {
-    width: 100%;
-    padding: 10px;
+    width: 42.5vw;
+    padding: 2vw;
     margin-bottom: 10px;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 2.75vw;
     transition: border-color 0.3s;
 }
 
@@ -94,58 +110,6 @@
 
 .exit-btn:hover {
     color: #777;
-}
-
-.email-button, .whatsapp-button {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 10px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.phone_button {
-    display: flex;
-    background-color: #b0a1a1;
-    color: white;
-    position: fixed;
-    height: 60px; width: 60px; border-radius: 30px;
-    right: 145px;
-    bottom: 10px;
-    color: black;
-    z-index: 500;
-}
-.phone_button a {
-    color: whitesmoke;
-    font-size: 22px;
-    position: relative;
-    left: 33%;
-    top: 30%;
-}
-.phone_button:hover {
-    background-color: #807676;
-}
-
-.email-button {
-    bottom: 10px; /* Adjust this as per the exact height of the whatsapp-button */
-    background-color: #89CFF0; /* Baby blue color */
-    right: 75px;
-    z-index: 300;
-}
-
-.email-button a {
-    color:whitesmoke;
-}
-
-.whatsapp-button {
-    bottom: 50px;
-    z-index: 400;
 }
 
 .exit-btn {
