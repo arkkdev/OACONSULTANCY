@@ -2,12 +2,10 @@
 
 .top_nav {
     width: 100%;
-    height: 65px;
+    height: 21vw;
     background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0; top: 0;
     position: absolute;  /* default to absolute */
-    top: 0;
     transition: top 0.3s ease;
     z-index: 1000;
 }
@@ -39,9 +37,9 @@
 .nav_logo img{
     /*justify-self: center;*/
     position: absolute;
-    top: 10px;
+    bottom: 1.5vw;
     margin: auto;
-    height: 50px;
+    height: 12vw;
 }
 
 .nav_list_container {
@@ -49,7 +47,7 @@
     position:relative; height: 100%;
 }
 .nav_list {
-    padding-right: 30px; padding-top: 20%;
+    padding-right: 4vw; padding-top: 7vw;
 }
 .nav_list li{
     padding: 0;
@@ -59,12 +57,12 @@
 }
 .nav_list li {
     font-size: 6vw;
-    margin-right: 20px;
+    margin-right: 4vw;
     display: inline-flex;
     z-index: 300;
 }
 .nav_list li:first-child {
-    padding-right: 15px;
+    padding-right: 4vw;
 }
 .nav_list li a {
     display: inline-block;
@@ -143,7 +141,7 @@
 
 .down_arrow, .up_arrow {
     position: absolute;
-    right: 6vw; /* Adjusted this value for better alignment */
+    right: 4vw; /* Adjusted this value for better alignment */
     top: 50%; /* Centered vertically */
     transform: translateY(-50%); /* This ensures true vertical centering */
     z-index: 999999;
@@ -185,8 +183,8 @@
 }
 
 .socials_tab {
-    height: 5%; width: 30%; right: 10px; font-size: 5vw;
-    position: absolute; top: 13%;
+    height: 8vw; width: 30vw; right: 1vw; font-size: 4.25vw;
+    position: absolute; top: 22.5vw;
     background-color: #3a1616;
     z-index: 1000;
     border-radius: 50px;
@@ -200,12 +198,12 @@
 
 .sticky {
     position: fixed;
-    top: 5px;
+    top: 1vw;
 }
 
 .sticky-up {
     position: fixed;
-    top: 13%;
+    top: 22.5vw;
 }
 
 .socials {
