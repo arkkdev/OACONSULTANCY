@@ -9,7 +9,31 @@
 
 }
 
-/* Desktops */
+@media screen and (max-width: 1070px) and (orientation: landscape) {
+    .top_nav { height: 12.5vw;}
+    .nav_logo img{ height: 10vw;}
+    .nav_list {padding-top: 2vw;}
+    .nav_list li {font-size: 5vw;}
+    .nav_list li:first-child {padding-right: 0;}
+    .drop_container_button i { top: -1vw !important; font-size: 7vw !important;}
+
+    .drop_content_container .exit_button {font-size: 5vw !important; top: 3vw;}
+    .top_drop {height: 12.5vw}
+    .top_drop img {height: 10vw; top: 1vw;}
+    .bottom_drop {top: 13vw;}
+    .drop_content_button {font-size: 4vw;}
+
+    .socials_tab{top:13vw; height: 6vw;}
+    .sticky {top: 1px;}
+    .sticky_up {top:13vw;}
+
+    .email-button, .whatsapp-button, .phone_button {
+        height: 10vw; width: 10vw; font-size: 4vw;}
+    .email-button { right: 12vw;}
+    .phone_button {right: 23vw;}
+
+    .jumbotron { top:12.5vw}
+}
 @media only screen and (max-width: 1079px) {
     .full_nav_container {
         display: none;}

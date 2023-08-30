@@ -4,25 +4,25 @@
     display: flex;
     justify-content: center; align-items: center;
     position: fixed; display: flex;
-    font-size: 4vw;
-    height: 10vw; width: 10vw;
+    font-size: 5vw;
+    height: 14vw; width: 14vw;
     right: 10px; bottom: 1vw !important;
     border-radius: 30vw;
     color: white; text-decoration: none;
     transition: background-color 0.3s;
-    z-index: 10000000000; cursor: pointer;
+    z-index: 500; cursor: pointer;
 }
 .whatsapp-button {
     background-color: #25D366;
 }
 
 .email-button {
-    right: 12vw;background-color: #89CFF0;
+    right: 16vw;background-color: #89CFF0;
 }
 
 .phone_button {
     background-color: #b0a1a1;
-    right: 23vw;
+    right: 31vw;
 }
 .phone_button a {
     color: whitesmoke;
@@ -42,11 +42,11 @@
 #whatsappForm, #emailForm {
     position: fixed;
     right: 1vw;
-    bottom: 12vw;
+    bottom: 16vw;
     background-color: #f9f9f9;
     padding: 4vw;
     border-radius: 15px;
-    width: 45vw;
+    width: 55vw;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 5000;
 }
@@ -54,7 +54,7 @@
 #whatsappForm h2, #emailForm h2 {
     font-family: 'Titilium', sans-serif;
     color: #333;
-    font-size: 3.5vw;
+    font-size: 4vw;
     margin-bottom: 4vw;
 }
 
@@ -64,12 +64,12 @@
 #emailForm input,
 #emailForm select,
 #emailForm button {
-    width: 42.5vw;
+    width: 52.5vw;
     padding: 2vw;
     margin-bottom: 10px;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    font-size: 2.75vw;
+    font-size: 3.25vw;
     transition: border-color 0.3s;
 }
 
@@ -105,7 +105,7 @@
     top: 10px;
     color: #aaa;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 5vw;
 }
 
 .exit-btn:hover {
