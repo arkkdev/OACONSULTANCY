@@ -140,7 +140,7 @@
 
 .down_arrow, .up_arrow {
     position: absolute;
-    right: 4vw; /* Adjusted this value for better alignment */
+    right: 2vw; /* Adjusted this value for better alignment */
     top: 50%; /* Centered vertically */
     transform: translateY(-50%); /* This ensures true vertical centering */
     z-index: 999999;

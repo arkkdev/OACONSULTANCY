@@ -22,6 +22,7 @@
     .top_drop img {height: 10vw; top: 1vw;}
     .bottom_drop {top: 13vw;}
     .drop_content_button {font-size: 4vw;}
+    .drop_content a {font-size: 3.5vw;}
 
     .socials_tab{top:13vw; height: 6vw;}
     .sticky {top: 1px;}
@@ -33,6 +34,8 @@
     .phone_button {right: 23vw;}
 
     .jumbotron { top:12.5vw}
+
+    .square_container {top:100vw}
 }
 @media only screen and (max-width: 1079px) {
     .full_nav_container {
