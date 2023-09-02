@@ -2,7 +2,7 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
 
 .top_nav {
     width: 100%;
-    height: 21vw;
+    height: 17vw;
     background-color: whitesmoke;
     margin: 0; padding: 0; top: 0;
     position: absolute;  /* default to absolute */
@@ -47,7 +47,7 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
     position:relative; height: 100%;
 }
 .nav_list {
-    padding-right: 4vw; padding-top: 10vw;
+    padding-right: 4vw; padding-top: 6vw;
 }
 .nav_list li{
     padding: 0;
@@ -103,9 +103,9 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
 .drop_content_container img {
     /*padding-top: 2%;*/
     /*padding-left: 4%;*/
-    height: 13vw;
+    height: 12vw;
     position: absolute;
-    top: 3.7%;
+    top: 3.5vw;
     left: 0vw;
 }
 
@@ -116,12 +116,12 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
     color: black;
     position: absolute;
     right: 3%;
-    top: 6%;
+    top: 5.5vw;
     /*padding: 20px 16px;*/
 }
 
-.top_drop { height: 21vw; top: 0;}
-.bottom_drop {top:19vw; width: 100%; height :100%; position: absolute;
+.top_drop { height: 17vw; top: 0;}
+.bottom_drop {top:17vw; width: 100%; height :100%; position: absolute;
 }
 
 .drop_content_button {
@@ -183,11 +183,11 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
 
 .socials_tab {
     height: 8vw; width: 30vw; right: 1vw; font-size: 4.25vw;
-    position: absolute; top: 22.5vw;
-    background-color: #3a1616;
+    position: absolute; top: 17.5vw;
+    background-color: #282e59;
     z-index: 1000;
     border-radius: 50px;
-    opacity: 80%;
+    opacity: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +202,7 @@ body { margin:0; padding: 0; width: 100vw; overflow-x: hidden}
 
 .sticky-up {
     position: fixed;
-    top: 22.5vw;
+    top: 17.5vw;
 }
 
 .socials {
