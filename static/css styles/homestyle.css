@@ -3,8 +3,10 @@ body {
     margin: 0;padding: 0;
 }
 
+
+/*JUMBOTRON STYLING*/
 .jumbotron {
-    position: relative;
+    position: relative; width: 100%;
     margin-top: 0%; height: 85vw; top: 17vw;
 }
 
@@ -18,7 +20,7 @@ body {
 
 .slider {
     overflow: hidden; position: relative;
-    width: 100vw; height: 85vw;
+    width: 100%; height: 85vw;
 }
 
 .slides {
@@ -27,7 +29,7 @@ body {
 }
 
 .slide {
-    width: 100vw; /* Full width of the viewport */
+    width: 100%; /* Full width of the viewport */
     height: 100%;
     flex: 0 0 auto;
 }
@@ -87,8 +89,47 @@ body {
     text-decoration: none;
 }
 
+
+/* MISSION CONTAINER STYLING*/
+.mission_container {
+    position: absolute; background: #282e59; color: white;
+    top: 91vw; width: 100vw; height: 60vw;
+    display: flex; justify-content: flex-start;}
+
+.missions, .values{
+    font-family: 'Titilium', sans-serif; text-align: left;
+    width: 45vw; padding-top: 5vw; padding-left: 10vw;
+    position: relative}
+
+.values {
+    padding-top: 20vw;}
+
+.missions h1, .values h2 {
+    padding-bottom: 2vw;
+    font-weight: bold; font-size: 4vw; color: #d6e1ff}
+
+.missions p, .values p {
+    line-height: 1.5; width: 100%;
+    margin-left: 2vw;}
+
+.mission_container button {
+    position: absolute; height: 8vw; width: 40vw;
+    top: 5vw; right: 0; border: none; z-index: 5;
+    background: linear-gradient(-65deg, #e0dfdf 80%, transparent 80%);}
+
+.mission_container button i {
+    position: absolute; font-size: 5vw; top: 1.5vw; right: 1vw;
+}
+
+.mission_container button:hover {
+    cursor: pointer;
+    background: linear-gradient(-65deg, #adadad 80%, transparent 80%);
+}
+
+
+/* PRACTICES SQUARES STYLING*/
 .square_container {
-    margin: 0; width: 100%; height: 200vw; top: 90vw;
+    margin: 0; width: 100%; height: 200vw; top: 150vw;
     background-color: whitesmoke;
     position: absolute;
 }

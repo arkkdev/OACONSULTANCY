@@ -10,6 +10,10 @@
 }
 
 @media screen and (max-width: 1070px) and (orientation: landscape) {
+
+    * { box-sizing: border-box; margin: 0; padding: 0;}
+    body {margin: 0;padding: 0;}
+
     .top_nav { height: 12.5vw;}
     .nav_logo img{ height: 10vw;}
     .nav_list {padding-top: 2vw;}
@@ -35,7 +39,9 @@
 
     .jumbotron { top:12.5vw}
 
-    .square_container {top:87vw}
+    .mission_container {top: 86vw;}
+
+    .square_container {top:145vw}
 }
 @media only screen and (max-width: 1079px) {
     .full_nav_container {
