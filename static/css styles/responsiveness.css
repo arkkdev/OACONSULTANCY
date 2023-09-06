@@ -12,7 +12,7 @@
 @media screen and (max-width: 1070px) and (orientation: landscape) {
 
     * { box-sizing: border-box; margin: 0; padding: 0;}
-    body {margin: 0;padding: 0;}
+    body {margin: 0;padding: 0; width: 100%;}
 
     .top_nav { height: 12.5vw;}
     .nav_logo img{ height: 10vw;}
