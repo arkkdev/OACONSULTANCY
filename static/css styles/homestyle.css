@@ -1,13 +1,12 @@
 * { box-sizing: border-box; margin: 0; padding: 0;}
 body {
-    margin: 0;padding: 0; width: 100%;
-}
+    margin: 0;padding: 0; width: 100%;}
 
 
 /*JUMBOTRON STYLING*/
 .jumbotron {
     position: relative; width: 100%;
-    margin-top: 0%; height: 85vw; top: 17vw;
+    margin-top: 0%; height: 91vw; top: 17vw;
 }
 
 /*.jumbotron img {*/
@@ -40,7 +39,7 @@ body {
 }
 
 .jumbotron h1 {
-    font-family: 'Quicksand', sans-serif; color: white;
+    font-family: 'Quicksand', sans-serif; color: whitesmoke;
     font-weight: bold; border-radius: 3px;
     opacity: 90%; font-size: 5vw;
     position: absolute; text-align: center;
@@ -59,7 +58,7 @@ body {
 .banner ul {
     width: 85vw; top: -2vw; left: 7.5vw;
     padding: 2vw 6vw;
-    background: linear-gradient(-65deg, transparent 0%, transparent 5%, #e0dfdf 5%, #e0dfdf 95%, transparent 95%);
+    background: linear-gradient(-65deg, transparent 0%, transparent 5%, whitesmoke 5%, #e0dfdf 95%, transparent 95%);
     font-family: 'Quicksand', sans-serif; font-size: 3vw; color: white;
     position: absolute; display: flex;
     list-style: none; text-align: center; justify-content: space-between;
@@ -84,54 +83,47 @@ body {
     justify-content: center; align-items: center;
     width: 50vw; top: 15vw; left: 25vw;
     font-size: 3vw; padding: 2vw 4vw;
-    border-radius: 3px; border: none;
-    background-color: #e0dfdf; color: black;
+    border-radius: 30vw; border: none;
+    background-color: whitesmoke; color: black;
     text-decoration: none;
 }
 
 
-/* MISSION CONTAINER STYLING*/
-.mission_container {
-    position: absolute; background: #282e59; color: white;
-    top: 91vw; width: 100%; height: 60vw;
-    display: flex; justify-content: flex-start;}
+/* AI AD BOX*/
 
-.missions, .values{
-    font-family: 'Titilium', sans-serif; text-align: left;
-    width: 45vw; padding-top: 5vw; padding-left: 10vw;
-    position: relative}
+.ai_ad_container {
+    position: relative; height: 60vw;
+    color: whitesmoke; background: #282e59;
+    font-family: 'Titilium', sans-serif;
+    }
 
-.values {
-    padding-top: 20vw;}
+.ai_ad_container h1 {
+    position:absolute; top: 5vw; right: 5vw;
+    padding: 2vw 4vw;
+    color: #282e59; background-color: whitesmoke;
+    font-weight: bold; font-size: 4vw;}
 
-.missions h1, .values h2 {
-    padding-bottom: 2vw;
-    font-weight: bold; font-size: 4vw; color: #d6e1ff}
+.ai_ad_container h2 {
+    position: absolute; top: 17vw; right: 10vw;
+    font-size: 4vw;}
 
-.missions p, .values p {
-    line-height: 1.5; width: 100%;
-    margin-left: 2vw;}
+.ai_ad_container p {
+    position: absolute; top: 25vw; left: 15%; width: 70%;
+    text-align: center; line-height: 1.75;
+    font-size: 2.5vw; font-weight: bolder;}
 
-.mission_container button {
-    position: absolute; height: 8vw; width: 40vw;
-    top: 5vw; right: 0; border: none; z-index: 5;
-    background: linear-gradient(-65deg, #e0dfdf 80%, transparent 80%);}
+.ai_ad_container button {
+    position: absolute; height: 6vw; width: 20%; top: 50vw; left: 5%;
+    color: #282e59; background-color: whitesmoke; border:none; border-radius: 30vw;
+    font-weight: bolder; font-size: 2.5vw;}
 
-.mission_container button i {
-    position: absolute; font-size: 5vw; top: 1.5vw; right: 1vw;
-}
-
-.mission_container button:hover {
-    cursor: pointer;
-    background: linear-gradient(-65deg, #adadad 80%, transparent 80%);
-}
 
 
 /* PRACTICES SQUARES STYLING*/
 .square_container {
-    margin: 0; width: 100%; height: 200vw; top: 150vw;
+    margin: 0; width: 100%; height: 210vw; top: 0vw;
     background-color: whitesmoke;
-    position: absolute;
+    position: relative;
 }
 
 .square_container h1 {
@@ -190,6 +182,58 @@ body {
     text-decoration: none; color: black;
 }
 
+
+
+/* MISSION CONTAINER STYLING*/
+.mission_container {
+    position: relative; background: linear-gradient(-65deg, whitesmoke 47%, #282e59 47%);; color: whitesmoke;
+    width: 100%; height: 60vw;
+    display: flex; justify-content: flex-start;}
+
+.missions, .values{
+    font-family: 'Titilium', sans-serif; font-style: normal;
+    text-align: left; width: 45vw; top: 5vw;
+    position: relative}
+
+.missions {width: 60vw;}
+
+.values {
+    position: absolute;
+    width: 40vw; right: 0vw;}
+
+.missions h1, .values h2 {
+    font-size: 4vw; font-weight: bold;
+    height: 8vw; line-height: 8vw; width:100%;z-index: 5;
+}
+.missions h1 {
+    text-align: left; padding-left: 2vw;
+    background: linear-gradient(-65deg, transparent 7%, whitesmoke 7%); color: #282e59;}
+
+.values h2 {
+    text-align: right; padding-right: 2vw;
+    background: linear-gradient(-65deg, #282e59 77%, transparent 77%);}
+
+.missions p, .values p {
+    line-height: 1.5; width: 80%;
+    padding-left: 3vw; padding-top: 4vw;}
+.values p {
+    color: #282e59; text-align: right; transform: translateX(15%)}
+
+.mission_container button {
+    position: absolute; height: 8vw; width: 63vw;
+    bottom: 1.5vw; right: 0; border: none; z-index: 5; color: white;
+    background: linear-gradient(-65deg, #282e59 80%, transparent 80%);
+    font-size: 3vw; font-style: oblique;
+    padding-left: 10vw;}
+
+.mission_container button i {
+    position: absolute; font-size: 4vw; top: 2vw; right: 2vw;
+}
+
+.mission_container button:hover {
+    cursor: pointer;
+    background: linear-gradient(-65deg, #adadad 80%, transparent 80%);
+}
 
 
 

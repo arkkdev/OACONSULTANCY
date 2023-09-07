@@ -37,11 +37,9 @@
     .email-button { right: 12vw;}
     .phone_button {right: 23vw;}
 
-    .jumbotron { top:12.5vw}
+    .jumbotron { top:12.5vw; height: 86.5vw;}
 
-    .mission_container {top: 86vw;}
-
-    .square_container {top:145vw}
+    .mission_container {height: 40vw;}
 }
 @media only screen and (max-width: 1079px) {
     .full_nav_container {
