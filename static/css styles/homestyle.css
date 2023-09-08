@@ -1,58 +1,47 @@
-* { box-sizing: border-box; margin: 0; padding: 0; max-width: 100%;}
+* {
+    box-sizing: border-box; margin: 0; padding: 0; max-width: 100%;}
+
 body {
     margin: 0;padding: 0; width: 100%; max-width: 100%;}
+
+
 
 
 /*JUMBOTRON STYLING*/
 .jumbotron {
     box-sizing: border-box; max-width: 100%;
     position: relative; width: 100%;
-    margin-top: 0%; height: 91vw; top: 17vw;
-}
-
-/*.jumbotron img {*/
-/*    max-width: 100%;*/
-/*    opacity: 50%;*/
-/*    height: 20%; !* This will make the image effectively twice as tall as the container *!*/
-/*    object-fit: cover; !* This ensures the image covers the container without distorting *!*/
-/*    object-position: top center;*/
-/*}*/
+    margin-top: 0%; height: 91vw; top: 17vw;}
 
 .slider {
     overflow: hidden; position: relative;
-    width: 100%; height: 85vw;
-}
+    width: 100%; height: 85vw;}
 
 .slides {
     display: flex;
-    animation: slideAnimation 40s infinite; /* 3 images * 5 seconds each */
-}
+    animation: slideAnimation 40s infinite; /* 3 images * 5 seconds each */}
 
 .slide {
     width: 100%; /* Full width of the viewport */
     height: 100%;
-    flex: 0 0 auto;
-}
+    flex: 0 0 auto;}
 
 .slide img {
     width: 100%; height: 100%;
-    object-fit: cover; opacity: 90%;
-}
+    object-fit: cover; opacity: 90%;}
 
 .jumbotron h1 {
     font-family: 'Quicksand', sans-serif; color: whitesmoke;
     font-weight: bold; border-radius: 3px;
     opacity: 90%; font-size: 5vw;
     position: absolute; text-align: center;
-    top: 15vw; width: 80vw; left:10vw; padding:4vw 1vw;
-}
+    top: 15vw; width: 80vw; left:10vw; padding:4vw 1vw;}
 
 .banner {
     width: 100%;
     height: 35vw;
     position: absolute;
-    bottom: 10vw;
-}
+    bottom: 10vw;}
 
 .banner ul {
     width: 85vw; top: -2vw; left: 7.5vw;
@@ -60,21 +49,18 @@ body {
     background: linear-gradient(-65deg, transparent 0%, transparent 5%, whitesmoke 5%, #e0dfdf 95%, transparent 95%);
     font-family: 'Quicksand', sans-serif; font-size: 3vw; color: white;
     position: absolute; display: flex;
-    list-style: none; text-align: center; justify-content: space-between;
-}
+    list-style: none; text-align: center; justify-content: space-between;}
 
 .banner ul li {
     /* other properties if any... */
-    mix-blend-mode: difference; /* this is key for the cut-out effect */
-}
+    mix-blend-mode: difference; /* this is key for the cut-out effect */}
 
 .jumbotron li:nth-child(2){
-    padding-left: 4vw;
-}
+    padding-left: 4vw;}
+
 .banner p2 {
     position: absolute; top: 8vw; left: 21.5vw; color: white;
-    font-family: 'Quicksand', sans-serif; font-style: normal; font-size: 3.5vw;
-}
+    font-family: 'Quicksand', sans-serif; font-style: normal; font-size: 3.5vw;}
 
 .jumbotron button {
     font-family: 'Quicksand', sans-serif;
@@ -84,11 +70,12 @@ body {
     font-size: 3vw; padding: 2vw 4vw;
     border-radius: 30vw; border: none;
     background-color: whitesmoke; color: black;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .jumbotron button:hover {
     background-color: #b9b7b7;}
+
+
 
 
 
@@ -99,29 +86,31 @@ body {
 
 .about_us_container h1 {
     position: absolute;
+    border-top-right-radius: 30vw; border-bottom-right-radius: 30vw;
     top: 8%; width: 35%; padding: 2% 5%;
-    font-family: 'Titilium', sans-serif; font-size: 5vw; font-weight: normal;
+    font-family: 'Quicksand', sans-serif; font-size: 5vw; font-weight: normal;
     color: whitesmoke; background: #282e59}
 
 .about_content {
     position: absolute; list-style-type: none;
-    width: 82.5%; left: 7%; top: 24%;
+    width: 85%; left: 7.5%; top: 24%;
     font-family: 'Quicksand', sans-serif; font-weight: normal;
-    display: flex; flex-direction: column; justify-content: space-between;}
+    display: flex; flex-direction: column; justify-content: space-between;
+    color: #282e59}
 
 .about_content li {
-    padding-bottom: 22%;}
+    padding-bottom: 27%;}
 
 .about_content li h2 {
+    position: absolute; right: 0;
+    padding-bottom: 5%;
+    transform: translateY(-65%);
     font-size: 4vw;}
 
 .about_content li p {
-    padding-top: 1%; text-align: justify;
-    font-size: 2.5vw;}
+    text-align: justify; position: absolute;
+    font-size: 2.5vw; padding-top: 1%;}
 
-.about_content p {
-    position: absolute;
-    width: 100%;}
 
 .about_us_container button {
     position: absolute;
@@ -139,27 +128,28 @@ body {
 
 
 /* AI AD BOX*/
-
 .ai_ad_container {
     max-width: 100%;
     position: relative; height: 60vw;
     color: whitesmoke; background: #282e59;
-    font-family: 'Titilium', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     }
 
 .ai_ad_container h1 {
-    position:absolute; top: 5vw; right: 5vw;
-    padding: 2vw 4vw;
+    position:absolute; top: 12%; right: 0vw;
+    border-bottom-left-radius: 30vw; border-top-left-radius: 30vw;
+    padding: 3% 6%;
     color: #282e59; background-color: whitesmoke;
-    font-weight: bold; font-size: 4vw;}
+    font-weight: bolder; font-size: 4vw;}
 
 .ai_ad_container h2 {
-    position: absolute; top: 17vw; right: 10vw;
+    position: absolute;
+    top: 35%; right: 5%;
     font-size: 4vw;}
 
 .ai_ad_container p {
-    position: absolute; top: 25vw; left: 15%; width: 70%;
-    text-align: center; line-height: 1.75;
+    position: absolute; top: 47%; right: 5%; width: 90%;
+    text-align: justify; line-height: 1.75;
     font-size: 2.5vw; font-weight: bolder;}
 
 .ai_ad_container button {
@@ -169,6 +159,10 @@ body {
 
 .ai_ad_container button:hover {
     background-color: #b9b7b7; color: black}
+
+
+
+
 
 
 /* PRACTICES SQUARES STYLING*/
@@ -186,8 +180,9 @@ body {
 }
 
 .square_list{
-    list-style-type: none; left: 0; padding-left: 5%; margin: 0;
-    position: relative;
+    position: absolute;
+    list-style-type: none;
+    left: 10%; width: 80%; margin: 0;
 }
 .square_list li {
     margin: 0; padding-bottom: 20px; flex-wrap: wrap}
@@ -237,6 +232,10 @@ body {
 
 .square_container button:hover i {
     color: whitesmoke}
+
+
+
+
 
 
 /* MISSION CONTAINER STYLING*/
@@ -290,6 +289,8 @@ body {
     cursor: pointer;
     background: linear-gradient(-65deg, #adadad 80%, transparent 80%);
 }
+
+
 
 
 

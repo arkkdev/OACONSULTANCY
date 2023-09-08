@@ -16,7 +16,7 @@
 
     .top_nav { height: 12.5vw;}
     .nav_logo img{ height: 10vw;}
-    .nav_list {padding-top: 4vw;}
+    .nav_list {padding-top: 4vw; padding-right: 1vw;}
     .nav_list li {font-size: 5vw;}
     /*.nav_list li:first-child {padding-right: 0;}*/
     .drop_container_button i { top: -1vw !important; font-size: 7vw !important;}
@@ -28,7 +28,7 @@
     .drop_content_button {font-size: 4vw;}
     .drop_content a {font-size: 3.5vw;}
 
-    .socials_tab{top:13vw; height: 6vw;}
+    .socials_tab{top:13vw; height: 6vw; right: 0.5vw;}
     .sticky {top: 1px;}
     .sticky_up {top:13vw;}
 
