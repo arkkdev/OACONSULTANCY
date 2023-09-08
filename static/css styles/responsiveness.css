@@ -14,30 +14,30 @@
     * { box-sizing: border-box; margin: 0; padding: 0;}
     body {margin: 0;padding: 0; width: 100%;}
 
-    .top_nav { height: 12.5vw;}
-    .nav_logo img{ height: 10vw;}
-    .nav_list {padding-top: 4vw; padding-right: 1vw;}
+    .top_nav { height: 10vw;}
+    .nav_logo img{ height: 7vw; bottom: 10%;}
+    .nav_list {padding-top: 3vw; padding-right: 1vw;}
     .nav_list li {font-size: 5vw;}
     /*.nav_list li:first-child {padding-right: 0;}*/
     .drop_container_button i { top: -1vw !important; font-size: 7vw !important;}
 
     .drop_content_container .exit_button {font-size: 5vw !important; top: 3vw;}
-    .top_drop {height: 12.5vw}
-    .top_drop img {height: 10vw; top: 1vw;}
-    .bottom_drop {top: 13vw;}
-    .drop_content_button {font-size: 4vw;}
-    .drop_content a {font-size: 3.5vw;}
+    .top_drop {height: 10.5vw}
+    .top_drop img {height: 7vw; top: 2vw;}
+    .bottom_drop {top: 10.5vw;}
+    .drop_content_button {font-size: 3.5vw;}
+    .drop_content a {font-size: 3vw;}
 
-    .socials_tab{top:13vw; height: 6vw; right: 0.5vw;}
+    .socials_tab{top:10.5vw; height: 6vw; right: 0.5vw;}
     .sticky {top: 1px;}
-    .sticky_up {top:13vw;}
+    .sticky_up {top:10.5vw;}
 
     .email-button, .whatsapp-button, .phone_button {
         height: 10vw; width: 10vw; font-size: 4vw;}
     .email-button { right: 12vw;}
     .phone_button {right: 23vw;}
 
-    .jumbotron { top:12.5vw; height: 86.5vw;}
+    .jumbotron { top:10vw; height: 85vw;}
 
     .mission_container {height: 40vw;}
 }
