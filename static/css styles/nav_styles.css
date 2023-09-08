@@ -144,7 +144,7 @@ body { margin:0; padding: 0; width: 100%; overflow-x: hidden}
 }
 
 
-.bi-chevron-double-up {display: none;
+.bottom_drop .bi-chevron-double-up {display: none;
 }
 
 .drop_content_button:hover {
