@@ -179,7 +179,7 @@ body { margin:0; padding: 0; width: 100%; overflow-x: hidden}
 }
 
 .socials_tab {
-    height: 8vw; width: 30vw; right: 2vw; font-size: 4.25vw;
+    height: 8vw; width: 30vw; right: 1vw; font-size: 4.25vw;
     position: absolute; top: 17.5vw;
     background-color: #282e59;
     z-index: 1000;

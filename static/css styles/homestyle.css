@@ -130,7 +130,7 @@ body {
 /* AI AD BOX*/
 .ai_ad_container {
     max-width: 100%;
-    position: relative; height: 60vw;
+    position: relative; height: 65vw;
     color: whitesmoke; background: #282e59;
     font-family: 'Quicksand', sans-serif;
     }
@@ -145,17 +145,17 @@ body {
 .ai_ad_container h2 {
     position: absolute;
     top: 35%; right: 5%;
-    font-size: 4vw;}
+    font-size: 4.5vw;}
 
 .ai_ad_container p {
     position: absolute; top: 47%; right: 5%; width: 90%;
     text-align: justify; line-height: 1.75;
-    font-size: 2.5vw; font-weight: bolder;}
+    font-size: 2.5vw; font-weight: normal;}
 
 .ai_ad_container button {
-    position: absolute; height: 7vw; width: 25%; bottom: 5%; left: 4%;
+    position: absolute; height: 7.5vw; width: 25%; bottom: 5%; left: 4%;
     color: #282e59; background-color: whitesmoke; border:none; border-radius: 30vw;
-    font-weight: bolder; font-size: 2.75vw;}
+    font-weight: normal; font-size: 2.75vw;}
 
 .ai_ad_container button:hover {
     background-color: #b9b7b7; color: black}
