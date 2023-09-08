@@ -5,6 +5,7 @@ body {
 
 /*JUMBOTRON STYLING*/
 .jumbotron {
+    box-sizing: border-box;
     position: relative; width: 100%;
     margin-top: 0%; height: 91vw; top: 17vw;
 }
