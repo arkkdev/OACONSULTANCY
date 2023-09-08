@@ -72,13 +72,13 @@ body {
     padding-left: 4vw;
 }
 .banner p2 {
-    position: absolute; top: 8vw; width: 90vw; left: 21.5vw; color: white;
+    position: absolute; top: 8vw; left: 21.5vw; color: white;
     font-family: 'Quicksand', sans-serif; font-style: normal; font-size: 3.5vw;
 }
 
 .jumbotron button {
     font-family: 'Quicksand', sans-serif;
-    display: flex; position: relative;
+    display: flex; position: absolute;
     justify-content: center; align-items: center;
     width: 50vw; top: 15vw; left: 25vw;
     font-size: 3vw; padding: 2vw 4vw;
