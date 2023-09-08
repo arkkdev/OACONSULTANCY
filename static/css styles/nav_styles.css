@@ -1,34 +1,32 @@
 body { margin:0; padding: 0; width: 100%; overflow-x: hidden}
 
-.top_nav {box-sizing: border-box;
+.top_nav {
+    max-width: 100%;
+    box-sizing: border-box;
     width: 100%; left: 0; height: 17vw;
     background-color: whitesmoke;
     margin: 0; padding: 0; top: 0;
     position: absolute;  /* default to absolute */
     transition: top 0.3s ease;
-    z-index: 1000;
-}
-
-.nav-placeholder {
-    height: 0; /* Initially, it won't occupy any space */
-}
+    z-index: 1000;}
 
 .sticky-nav {
     position: fixed;
     top: -65px;  /* start off-screen */
     left: 0;
     width: 100%;
-    z-index: 1000;
-}
+    z-index: 1000;}
+
 .scrolling-up {
     top: 0;  /* when scrolling up, animate to this position */
 }
 
 
 .nav_container {
+    max-width: 100%;
     margin: 0; padding-bottom: 0;
     height: 100%;
-    display: flex;
+    display: flex; position: relative;
     align-content: center; justify-content: space-between;
 }
 
