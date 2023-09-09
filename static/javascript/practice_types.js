@@ -12,13 +12,20 @@ document.addEventListener("DOMContentLoaded", function() {
             practiceTypeItems[0].style.backgroundColor = '#d6e5ff';
 
             // Set the clicked item's background to white
-            this.style.backgroundColor = 'whitesmoke';
+            this.style.backgroundColor = '#282e59';
 
             // Hide all content items
             practiceContentItems.forEach(contentItem => contentItem.style.display = 'none');
 
             // Display the corresponding content item for the clicked tab
             practiceContentItems[index].style.display = 'flex';
+
+            let practiceTypeColor = document.querySelectorAll(".practice_types li a")
+            practiceTypeColor.forEach(colorItem => colorItem.style.color = '')
+            practiceTypeColor[index].style.color ='white';
+
+            if (index !== 0) {
+                practiceTypeColor[0].style.color = '#282e59';}
 
             // Adjust border-radius for the content items
             let contentStyle = document.querySelector('.practice_content').style;
@@ -36,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // If the first child is clicked, set its background back to white
             if (index === 0) {
-                practiceTypeItems[0].style.backgroundColor = 'whitesmoke';
+                practiceTypeItems[0].style.backgroundColor = '#282e59';
             }
         });
     });
