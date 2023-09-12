@@ -116,12 +116,15 @@ body {
     overflow-x: scroll;
     bottom: 12.5%; left: 0; width: 200%; height: 32.5vw;
     background-color: whitesmoke;}
+::-webkit-scrollbar {
+        display: none;}
 
 .cards {
     position: relative;
     display: grid; grid-template-columns: repeat(6, 25%); grid-gap: 2%;
     height: 80%; top: 10%; margin-left: 1%;
     pointer-events: none;}
+
 
 .card {
     border-radius: 10px;
