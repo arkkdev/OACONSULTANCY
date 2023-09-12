@@ -78,10 +78,9 @@ body {
 
 
 
-
 /*ABOUT US BOX*/
 .about_us_container {
-    position: relative; height: 75vw; width: 100%;
+    position: relative; height: 125vw; width: 100%;
     background: whitesmoke; max-width: 100%;}
 
 .about_us_container h1 {
@@ -89,7 +88,8 @@ body {
     border-top-right-radius: 30vw; border-bottom-right-radius: 30vw;
     top: 8%; width: 35%; padding: 2% 5%;
     font-family: 'Quicksand', sans-serif; font-size: 5vw; font-weight: normal;
-    color: whitesmoke; background: #282e59}
+    color: whitesmoke; background: #282e59;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);}
 
 .about_content {
     position: absolute; list-style-type: none;
@@ -109,14 +109,33 @@ body {
 
 .about_content li p {
     text-align: justify; position: absolute;
-    font-size: 2.5vw; padding-top: 1%; line-height: 1.5}
+    font-size: 2.5vw; padding-top: 1%; line-height: 1.5;}
 
+.card_container {
+    position: absolute;
+    overflow-x: scroll;
+    bottom: 12.5%; left: 0; width: 200%; height: 32.5vw;
+    background-color: whitesmoke;}
+
+.cards {
+    position: relative;
+    display: grid; grid-template-columns: repeat(6, 25%); grid-gap: 2%;
+    height: 80%; top: 10%; margin-left: 1%;
+    pointer-events: none;}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    background-color: white;}
 
 .about_us_container button {
     position: absolute;
     padding: 2% 5%; bottom: 4%; right: 4%;
     border: none; border-radius: 30vw;
     font-size: 3vw;
+    box-shadow: 0 1vw 5vw rgb(0 0 0 / 0.2);
     background-color: #282e59; color: whitesmoke;}
 
 .about_us_container button:hover {
@@ -130,7 +149,7 @@ body {
 /* AI AD BOX*/
 .ai_ad_container {
     max-width: 100%;
-    position: relative; height: 65vw;
+    position: relative; height: 85vw;
     color: whitesmoke; background: #282e59;
     font-family: 'Quicksand', sans-serif;
     }
@@ -140,7 +159,8 @@ body {
     border-bottom-left-radius: 30vw; border-top-left-radius: 30vw;
     padding: 3% 6%;
     color: #282e59; background-color: whitesmoke;
-    font-weight: normal; font-size: 4vw;}
+    font-weight: normal; font-size: 4vw;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)}
 
 .ai_ad_container h2 {
     position: absolute;
