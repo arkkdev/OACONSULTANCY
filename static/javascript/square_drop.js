@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 10);
 
             // Adjust heights
-            squareContainer.style.height = "300vw";
-            squareTop.style.height = "30%";
+            squareContainer.style.height = "337.68vw";
+            squareTop.style.height = "37%";
 
             // Adjust chevrons
             chevronUp.style.display = "block";
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 0);
 
             // Reset heights to default
-            squareContainer.style.height = "90vw";
+            squareContainer.style.height = "125vw";
             squareTop.style.height = "100%";
 
             // Adjust chevrons
