@@ -193,7 +193,7 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)}
 .square_container {
     max-width: 100%;
     margin: 0; width: 100%; height: 125vw;
-    background-color: whitesmoke;
+    background-color: #e1e6f1;
     position: relative;
 }
 .square_top {
@@ -331,7 +331,7 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)}
     position: relative;
     height: 150vw; width: 100%;
     font-family: 'Quicksand', sans-serif;
-    background: #d6e5ff;}
+    background: whitesmoke;}
 
 .pre_foot h1 {
     position: relative;
