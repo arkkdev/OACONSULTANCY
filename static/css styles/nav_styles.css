@@ -123,12 +123,12 @@ body { margin:0; padding: 0; width: 100%; overflow-x: hidden}
 
 .drop_content_button {
     display: flex;
-    padding: 14px 25px;
+    padding: 16px 25px;
     width: 100%;
     text-align: left;
     border: none;
     font-size: 5.5vw;
-    font-family: Cairo;
+    font-family: 'Quicksand', sans-serif;
     background-color: #f1f0f0; text-decoration: none; color: black;
     position: relative; /* Added this line */
     align-items: center; /* This ensures vertical centering for child elements */
@@ -165,13 +165,13 @@ body { margin:0; padding: 0; width: 100%; overflow-x: hidden}
 }
 
 .drop_content a {
-    font-family: Cairo;
-    font-size: 5.25vw;
+    font-family: 'Titilium', sans-serif; font-weight: lighter;
+    font-size: 5vw;
     color: #000000 !important;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
 }
 
 .drop_content a:hover {

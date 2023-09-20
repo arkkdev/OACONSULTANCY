@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Remove the white background from all items and set the background color of the first child to black
             practiceTypeItems.forEach(practiceTypeItem => practiceTypeItem.style.backgroundColor = '');
-            practiceTypeItems[0].style.backgroundColor = '#d6e5ff';
+            practiceTypeItems[0].style.backgroundColor = 'whitesmoke';
 
             // Set the clicked item's background to white
             this.style.backgroundColor = '#282e59';
