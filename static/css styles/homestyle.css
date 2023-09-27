@@ -81,8 +81,6 @@ body {
 .about_us_container {
     position: relative; height: 125vw; width: 100%;
     background: whitesmoke; max-width: 100%;}
-.about_us_container img {
-    width: 100%;}
 
 .about_us_container h1 {
     position: absolute;
@@ -155,8 +153,7 @@ body {
     max-width: 100%;
     position: relative; height: 85vw;
     color: whitesmoke; background: #282e59;
-    font-family: 'Quicksand', sans-serif;
-    }
+    font-family: 'Quicksand', sans-serif;}
 
 .ai_ad_container h1 {
     position:absolute; top: 12%; right: 0vw;
